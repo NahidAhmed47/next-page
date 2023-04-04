@@ -6,6 +6,7 @@ import { RouterProvider, createBrowserRouter } from 'react-router-dom'
 import Home from './components/Home'
 import About from './components/About'
 import Books from './components/Books'
+import Contract from './components/Contract'
 
 const router = createBrowserRouter([
   {
@@ -19,6 +20,10 @@ const router = createBrowserRouter([
       {
         path:"books",
         element: <Books></Books>
+      },
+      {
+        path:"contract",
+        element: <Contract></Contract>
       },
       {
         path:"about",
