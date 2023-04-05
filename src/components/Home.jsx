@@ -12,7 +12,7 @@ const Home = () => {
                     thousand lives <span className='text-blue-400'>before he dies</span></h1>
                 <p className='text-base font-medium '>Books are a uniquely portable magic. Books serve to show a man that those original thoughts of his aren’t very new after all. The man who does not read good books is no better than the man who can’t.</p>
                 <div className='flex gap-4 items-center my-1 md:my-4'>
-                    <Link className='px-3 py-1 bg-blue-500 rounded text-base font-bold text-white'>Visit Store!</Link>
+                    <Link to="books" className='px-3 py-1 bg-blue-500 rounded text-base font-bold text-white'>Visit Store!</Link>
                     <Link>Learn More!</Link>
                 </div>
             </div>
