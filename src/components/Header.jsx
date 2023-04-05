@@ -24,6 +24,7 @@ const Header = () => {
                     <NavLink to='/about' className={({isActive})=> isActive ? 'text-blue-500' : ''}>About</NavLink>
                 </li>
             </ul>
+            {/* Mobile toggle menu btn section */}
             <div className='md:hidden'>
                 <button aria-label='Open Menu' title='Open Menu' onClick={()=> setIsOpen(!isOpen)}>
                     <Bars3BottomRightIcon className='w-5 h-5 text-slate-700'></Bars3BottomRightIcon>
