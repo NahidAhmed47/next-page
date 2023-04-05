@@ -4,7 +4,6 @@ import SingleBook from './SingleBook';
 
 const Books = () => {
     const {books} = useLoaderData();
-    console.log(books);
     return (
         <div className='max-w-[90%] mx-auto mt-14 grid grid-cols-2 md:grid-cols-4 gap-2 md:gap-6'>
             {
